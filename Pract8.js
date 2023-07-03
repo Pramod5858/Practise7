@@ -11,7 +11,7 @@ import Pract9 from "./Pract9";
 export default function Pract8() {
   const [dataA, setDataA] = useState(6);
   const [dataB, setDataB] = useState(5);
-  const [dataC, setDataC] = useState(6);
+  const [dataC, setDataC] = useState(3);
 
 
   const HandleIncrementA = () => {
@@ -37,8 +37,6 @@ export default function Pract8() {
   const HandleDecrementC = () => {
     setDataC(dataC - 1);
   };
-
-  
 
 
   return (
